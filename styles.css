@@ -56,3 +56,16 @@
     width: 100px;
     color: gray;
 }
+
+.credit {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credit p, .credit a {
+    color: beige;
+}
