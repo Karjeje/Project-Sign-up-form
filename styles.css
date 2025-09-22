@@ -10,6 +10,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -80,8 +81,17 @@
 }
 
 .section1 {
-    background-color: #e6e4e4;
-    flex: 0 0 364px;
+    background-color: #f4f4f4;
+    flex: none;
+    height: 364px;
+    padding: 140px 100px 80px 30px;
+    font-size: 22px;
+    font-family: 'InterVariable', sans-serif;
+    font-weight: 550;
+}
+
+.section1 > p:first-child {
+    margin-bottom: 30px;
 }
 
 .section2 {
@@ -90,6 +100,6 @@
 }
 
 .section3 {
-    background-color: #e6e4e4;
+    background-color: #f4f4f4;
     flex: 1;
 }
