@@ -107,7 +107,7 @@
     font-family: 'InterVariable', sans-serif;
 }
 
-fieldset {
+form {
     border: none;
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +115,7 @@ fieldset {
     row-gap: 30px;
 }
 
-fieldset div {
+form div {
     display: flex;
     flex-direction: column;
     width: 40%;
